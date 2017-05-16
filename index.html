@@ -1,0 +1,82 @@
+
+<!doctype html>
+<head>
+<title>MY WALL</title>
+<link rel="stylesheet" type="text/css" href="extstylesheet.css"/>
+<style type="text/css">
+#div1 {border:2px dotted pink;
+	   position:absolute;
+	   top:200px;
+	   left:120px;
+	   }
+#div2 {
+       position:absolute;
+       top:260px;
+       left:550px;
+	   color:pink;
+	   animation-timing-function:ease-in-out;
+	   animation:move1 5s 1;
+       }	
+#div3 {position: absolute;
+	   color:orange;
+	   top:320px;
+	   left:760px;
+ animation-timing-function:ease-in-out;
+	   animation:move2 5s 1;
+	   }
+@keyframes example{
+  0% {background-image: url(h1.jpg);}
+  50% {background-image: url(h7.jpg);}
+  100% {background-image: url(h1.jpg);}
+}
+body {background-image: url(h1.jpg);;
+     animation-name: example;
+     animation-duration:4s;
+	 animation-iteration-count:infinite;}	
+@keyframes move1{
+	from{left:120px};
+	to{left: 550px;}
+}	 
+@keyframes move2{
+	from{left:600px};
+	to{left:400px};
+}	 
+
+
+#div4 {position:absolute;
+       top:400px;
+       left:600px;
+       color:pink;
+       animation-timing-function:ease-in-out;
+	   animation:move1 5s 1;
+	   }
+span{
+	color:pink;
+	font-style: bold;
+}	   
+
+
+	   
+	   
+
+
+	
+</style>
+</head>
+<body>
+<table border="20" width="100%">
+<tr>
+<th><a href="index.html"><span>HOME</span></a></th>
+<th><a href="index2.html"><span>ABOUT ME</span></a></th>
+<th><a href="index3.html"><span>INTEREST</span></a></th>
+<th><a href="index4.html"><span>CONTACT</span></a></th>
+</tr>
+</table>
+<div id="div1"><img src="tor.jpg" height="400"></div>
+
+<div id="div2"><h1>WELCOME VISITORS!!</h1></div>
+<div id="div3"><h1>ITS ME!!!!!ANURAG</h1></div>
+<div id="div4"><h1>Thanks For visiting Here Kindly Provide Yours Valuable Suggestion..... </h1></div>
+
+</body>
+</html>

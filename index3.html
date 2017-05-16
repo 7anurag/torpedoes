@@ -1,0 +1,80 @@
+
+<!doctype html>
+<head>
+<title>MY WALL</title>
+<link rel="stylesheet" type="text/css" href="extstylesheet.css"/>
+<style type="text/css">
+@keyframes example{
+  0% {background-image: url(172.jpg);}
+  50% {background-image: url(h7.jpg);}
+  100% {background-image: url(172.jpg);}
+}
+body {background-image: url(172.jpg);;
+     animation-name: example;
+     animation-duration:4s;
+	 animation-iteration-count:infinite;}	
+h1 {text-align:center;}
+@keyframes mymove1
+{	
+	from{left:0px;}
+	to{left:480px;}
+}
+@keyframes mymove3
+{	
+	from{right:0px;}
+	to{right:480px;}
+}		
+		
+#div1 {  position:absolute;
+	   top:120px;
+	   left:480px;
+	   animation-timing-function:ease-in-out;
+	   animation:mymove1 5s 1;
+	 }      
+#div2 {  position:absolute;
+	   top:300px;
+	   left:575px;
+	 }      	
+#div3 {  position:absolute;
+	   top:380px;
+	   right:480px;
+	   animation-timing-function:ease-in-out;
+	   animation:mymove3 5s 1;
+	 }  
+span{
+	color:pink;
+	font-style: bold;
+}	   	 	 
+</style>
+</head>
+<body>
+<table border="20" width="100%">
+<tr>
+<th><a href="index.html"><span>HOME</span></a></th>
+<th><a href="index2.html"><span>ACADEMICS</span></a></th>
+<th><a href="index3.html"><span>INTEREST</span></a></th>
+<th><a href="index4.html"><span>CONTACT</span></a></th>
+</tr>
+</table>
+<h1>MY HOBBIES </h1>
+<div id="div1">
+<ul>
+
+<li><h2>I like To Waste Time </h2></li>
+<li><h2>I like To Watch Movies</h2></li>
+<li><h2>I like Watch Cricket Rather Than playing</h2></li>
+<li><h2>I Like To Chat With My Friends</h2></li>
+</ul>
+</div>
+<div id="div2">
+<h1>MY DISLIKES</h1>
+</div>
+<div id="div3">
+<ul>
+<li><h2>I don't like using too much gadgets</h2></li>
+<li><h2> Books seems boring to me</h2></li>
+<li><h2>I don't like To Travel </h2></li>
+</ul>
+</div>
+</body>
+</html>
